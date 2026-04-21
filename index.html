@@ -14,23 +14,45 @@
       margin-left: 20px;
     }
 
-    nav {
-      margin-bottom: 20px;
+    /* NAVBAR STYLING (Lecture Style) */
+    nav ul {
+      list-style-type: none;   /* removes bullets */
+      margin: 0;
+      padding: 0;
+      background-color: #333;
+      overflow: hidden;
     }
 
-    nav a {
-      margin-right: 15px;
+    nav li {
+      display: inline;         /* makes it horizontal */
+    }
+
+    nav li a {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 10px 15px;
+      text-decoration: none;   /* removes underline */
+    }
+
+    /* Hover effect (from lecture) */
+    nav li a:hover {
+      background-color: #555;
+      color: lightgreen;
     }
   </style>
 </head>
 
 <body>
 
+  <!-- NAVIGATION BAR -->
   <nav>
-    <a href="appetizers.html">Appetizers</a>
-    <a href="main-courses.html">Main Courses</a>
-    <a href="desserts.html">Desserts</a>
-    <a href="beverages.html">Beverages</a>
+    <ul>
+      <li><a href="appetizers.html">Appetizers</a></li>
+      <li><a href="main-courses.html">Main Courses</a></li>
+      <li><a href="desserts.html">Desserts</a></li>
+      <li><a href="beverages.html">Beverages</a></li>
+    </ul>
   </nav>
 
   <h1>Mixed Herb Stem Salsa Verde</h1>
