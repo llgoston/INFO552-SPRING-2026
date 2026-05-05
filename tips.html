@@ -23,18 +23,29 @@ nav a {
   font-weight: bold;
 }
 
-h1 {
-  color: darkgreen;
+.header {
+  background-color: seagreen;
+  color: white;
   text-align: center;
+  padding: 30px 20px;
+  border-radius: 8px;
 }
 
-h2 {
-  color: seagreen;
-}
-
-.content {
+.container {
   max-width: 900px;
-  margin: auto;
+  margin: 30px auto;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.card h2 {
+  color: darkgreen;
 }
 </style>
 </head>
@@ -52,38 +63,47 @@ h2 {
   <a href="contact.html">Contact</a>
 </nav>
 
-<h1>Green Tips</h1>
+<div class="header">
+  <h1>Green Tips</h1>
+  <p>Simple ways to help protect the environment</p>
+</div>
 
-<div class="content">
+<div class="container">
 
-<p>
-Here are simple ways you can help keep your community clean and protect the environment:
-</p>
+<div class="card">
+  <h2>Reduce Waste</h2>
+  <p>
+  Use reusable bags, bottles, and containers. Cutting down on single-use plastics helps reduce pollution.
+  </p>
+</div>
 
-<h2>Reduce Waste</h2>
-<p>
-Use reusable bags, bottles, and containers. Cutting down on single-use plastics helps reduce pollution.
-</p>
+<div class="card">
+  <h2>Recycle Properly</h2>
+  <p>
+  Separate recyclable materials like paper, plastic, and glass. Follow your local recycling guidelines.
+  </p>
+</div>
 
-<h2>Recycle Properly</h2>
-<p>
-Separate recyclable materials like paper, plastic, and glass. Follow your local recycling guidelines.
-</p>
+<div class="card">
+  <h2>Pick Up Litter</h2>
+  <p>
+  If you see trash on the ground, pick it up safely and dispose of it properly. Small actions make a big difference.
+  </p>
+</div>
 
-<h2>Pick Up Litter</h2>
-<p>
-If you see trash on the ground, pick it up safely and dispose of it properly. Small actions make a big difference.
-</p>
+<div class="card">
+  <h2>Save Energy</h2>
+  <p>
+  Turn off lights when not in use and unplug devices to conserve energy.
+  </p>
+</div>
 
-<h2>Save Energy</h2>
-<p>
-Turn off lights when not in use and unplug devices to conserve energy.
-</p>
-
-<h2>Protect Green Spaces</h2>
-<p>
-Respect parks, trails, and public areas. Keeping these spaces clean helps everyone enjoy them.
-</p>
+<div class="card">
+  <h2>Protect Green Spaces</h2>
+  <p>
+  Respect parks, trails, and public areas. Keeping these spaces clean helps everyone enjoy them.
+  </p>
+</div>
 
 </div>
 
